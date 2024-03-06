@@ -19,7 +19,7 @@ pip install django
 **Instalación**
 Clona este repositorio en tu máquina local usando el siguiente comando:
 
-git clone URL REPOSITORIO
+git clone [URL REPOSITORIO](https://github.com/kredcl/3era_pre_entrega-Folch_Derek/tree/master)
 
 **Ejecución**
 Una vez que hayas configurado las variables de entorno, puedes ejecutar la aplicación usando el siguiente comando:
