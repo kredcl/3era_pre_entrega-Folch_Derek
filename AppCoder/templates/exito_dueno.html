@@ -1,0 +1,14 @@
+{% extends "padre.html" %}
+{% block contenido %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creación Exitosa</title>
+</head>
+<body>
+    <h1>Dueño de resotrant creado con éxito!</h1>
+    <p>El Dueño se ha creado correctamente en la base de datos.</p>
+    <a href="{% url 'crear_dueño' %}">Crear otro Dueño</a>
+</body>
+</html>
+{% endblock %}

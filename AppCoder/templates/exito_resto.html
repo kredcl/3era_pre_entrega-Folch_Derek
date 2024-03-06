@@ -1,0 +1,14 @@
+{% extends "padre.html" %}
+{% block contenido %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creación Exitosa</title>
+</head>
+<body>
+    <h1>resotrant creado con éxito!</h1>
+    <p>El Restorant se ha creado correctamente en la base de datos.</p>
+    <a href="{% url 'crear_resto' %}">Crear otro Restorant</a>
+</body>
+</html>
+{% endblock %}

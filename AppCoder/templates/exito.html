@@ -1,0 +1,14 @@
+{% extends "padre.html" %}
+{% block contenido %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creación Exitosa</title>
+</head>
+<body>
+    <h1>¡Usuario creado con éxito!</h1>
+    <p>El usuario se ha creado correctamente en la base de datos.</p>
+    <a href="{% url 'crear_usuario' %}">Crear otro usuario</a>
+</body>
+</html>
+{% endblock %}

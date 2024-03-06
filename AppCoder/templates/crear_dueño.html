@@ -1,0 +1,19 @@
+{% extends "padre.html" %}
+{% block contenido %}
+    	
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>Formulario de Inserción de Dueño Restorant</title>
+</head>
+<body>
+    <h1>Formulario de Inserción de Dueño Restorant</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>
+{% endblock %}
