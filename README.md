@@ -30,4 +30,4 @@ Esto iniciará el servidor de desarrollo de Django y podrás acceder a la aplica
 
 **PROYECTO EN DESARROLLO**
 al ser un proyecto en desarrollo por el momento podran realizar el ingreso a los modulos de creacion de usuario, creacion de restaurant, y creacion de Dueño, tambien el modulo de busquedas de restaurant, las proximas actualizaciones seran realizadas diractamente por git asi que siempre podras mantenerte actualizado, 
-la utilizacion es la siguiente, podras ingresar usuarios, podras ingresar dueños de restorant, y ademas nuevos restorant, podras realizar la busqueda de restorant, y se utiliza en todos los modulos la herencia html.
+la utilizacion es la siguiente, podras ingresar usuarios, podras ingresar dueños de restorant, y ademas nuevos restorant, podras realizar la busqueda de restorant, y se utiliza en todos los modulos la herencia html, para acceder a los modulos se puede realizar en un menu desplegable que indica "Evaluar", ahi podras seleccionar una opcion.
